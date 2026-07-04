@@ -8,6 +8,6 @@ class ClientCollection:
                 return c
         return None
     
-    def client_by_country(self, country):
+    def clients_by_country(self, country):
         return [c for c in self.clients if c.country == country]
     
